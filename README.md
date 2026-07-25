@@ -143,6 +143,8 @@ existant de la fabrique plutôt que de simplement l'étendre.
 
 ```bash
 javac -d out src/com/tp1/passwordcracker/*.java
-java -cp out com.tp1.passwordcracker.PasswordCracker -m DICO -h <hash_md5>
-java -cp out com.tp1.passwordcracker.PasswordCracker -m BRUTE -h <hash_md5>
+
+# Remplacez le hash ci-dessous par celui que vous voulez casser
+java -cp out com.tp1.passwordcracker.PasswordCracker -m DICO -h 098f6bcd4621d373cade4e832627b4f6
+java -cp out com.tp1.passwordcracker.PasswordCracker -m BRUTE -h 098f6bcd4621d373cade4e832627b4f6
 ```
