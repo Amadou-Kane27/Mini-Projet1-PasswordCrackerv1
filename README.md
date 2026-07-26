@@ -144,7 +144,8 @@ existant de la fabrique plutôt que de simplement l'étendre.
 ```bash
 javac -d out src/com/tp1/passwordcracker/*.java
 
-# Remplacez le hash ci-dessous par celui que vous voulez casser
 java -cp out com.tp1.passwordcracker.PasswordCracker -m DICO -h 098f6bcd4621d373cade4e832627b4f6
 java -cp out com.tp1.passwordcracker.PasswordCracker -m BRUTE -h 098f6bcd4621d373cade4e832627b4f6
 ```
+**Lien de la video de presentation:
+https://youtu.be/SWXs456-h_Y?si=JSNhC29yRNmw3wDp
